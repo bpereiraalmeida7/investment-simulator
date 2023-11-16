@@ -14,7 +14,6 @@ namespace InvestimentSimulator.WebAPI.Controllers
     /// <summary>
     /// Controller do CDBInvestment
     /// </summary>
-    [Route("api/")]
     public class CdbInvestmentController : ApiController
     {
         private readonly ICdbInvestimentService _cdbInvestmentService;
@@ -34,7 +33,7 @@ namespace InvestimentSimulator.WebAPI.Controllers
         /// <param name="investmentRequest"></param>
         /// <returns></returns>
         [HttpPost]
-        [Route("cdbCalculate")]
+        [Route("api/cdbCalculate")]
         public IHttpActionResult Post([FromBody] Investment investmentRequest)
         {
             var validationResults = new List<ValidationResult>();
