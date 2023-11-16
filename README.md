@@ -49,8 +49,11 @@ Backend:
 
 Frontend:
 
+*  Instalar [Node v18](https://nodejs.org/en/download)
+*  Instalar [NPM](https://angular.io/guide/setup-local#prerequisites)
 *  Abrir um terminal dentro da pasta "InvestimentSimulatorClient", e rodar o comando `npm install` para instalar as dependências.
 *  Ainda no terminal dentro da pasta do client, será necessário executar o comando `npm start`, para inicializar o frontend.
+*  Acessar no navegador `http://localhost:4200/`
 
 OBSERVAÇÃO:
 
