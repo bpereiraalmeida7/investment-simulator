@@ -37,15 +37,27 @@ O projeto frontend também utilizando uma arquitetura em camada, dando foco a es
 ## Instruções para execução e testes:
 
 ###### Execução do projeto:
-  
+
+Backend:
+
 * Baixar e instalar [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/).
     *  Caso seja necessário, seguir o tutorial de instalação do [.NET Framework](https://learn.microsoft.com/pt-br/dotnet/framework/).
 *  Abrir a solution `InvestimentSimulator.sln`, no visual studio.
+*  Compilar projeto de teste (InvestimentSimulator.WebAPI.Tests) individualmente, para que não ocorra erros.
+*  Compilar projeto de WebApi (InvestimentSimulator.WebAPI) individualmente.
+*  Executar projeto no botão de "Play" do VS.
+
+Frontend:
+
 *  Abrir um terminal dentro da pasta "InvestimentSimulatorClient", e rodar o comando `npm install` para instalar as dependências.
-*  Executar no botão de "Play" do VS.
-  * Para executar back e front juntos, certifique-se de alterar em "Configurar projetos de inicialização", no submenu "Propriedades Comuns > Projeto de Inicialização", a opção "Vários projetos de incialização", devem estar marcados. E na coluna "Ação", do projeto WebApi e Client, devem estar com a opção "Iniciar".
-  * Após isso clique no botão "Iniciar" (simbolo de play do VS). Dessa forma irá executar front e back juntos.
-* Caso tenha iniciado apenas o backend, no terminal dentro da pasta "InvestimentSimulatorClient", será mecessário executar o comando `npm start`, para inicializar o frontend.
+*  Ainda no terminal dentro da pasta do client, será necessário executar o comando `npm start`, para inicializar o frontend.
+
+OBSERVAÇÃO:
+
+* Para executar back e front juntos:
+  * Certifique-se de alterar em "Configurar projetos de inicialização", no submenu "Propriedades Comuns > Projeto de Inicialização", a opção "Vários projetos de incialização", devem estar marcados. E na coluna "Ação", do projeto WebApi e Client, devem estar com a opção "Iniciar".
+  * Abrir terminal dentro da pasta "InvestimentSimulatorClient", e rodar o comando `npm install` para instalar as dependências.
+* Após isso clique no botão "Iniciar" (simbolo de play do VS). Dessa forma irá executar front e back juntos.
 * Com ambos projetos em execução, divirta-se! :)
 
 ###### Execução dos testes unitários:
