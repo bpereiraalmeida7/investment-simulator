@@ -47,7 +47,7 @@ Backend:
 *  Abrir a solution `InvestimentSimulator.sln`, no visual studio.
 *  Compilar projeto de teste (InvestimentSimulator.WebAPI.Tests) individualmente, para que não ocorra erros.
 *  Compilar projeto de WebApi (InvestimentSimulator.WebAPI) individualmente.
-*  Executar projeto no botão de "Play" do VS. Caso haja erro de compilaçao devido conflitos de versão, limpe os projetos WebApi e Test, e execute-os novamente. 
+*  Executar projeto no botão de "Play" do VS. Caso haja erro de compilação devido conflitos de versão, limpe os projetos WebApi e Test, e execute-os novamente. 
 
 Frontend:
 
