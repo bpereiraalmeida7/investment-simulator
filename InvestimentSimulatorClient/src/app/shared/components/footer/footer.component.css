@@ -1,0 +1,11 @@
+.footer {
+  background-color: #f8f9fa;
+  color: #495057;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.footer p {
+  margin-bottom: 0;
+}

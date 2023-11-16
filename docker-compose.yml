@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  simulator-app:
+    build:
+      context: .
+      dockerfile: Dockerfile-Angular
+    ports:
+      - "4200:80"
+
+  simulator-web-api:
+    build:
+      context: .
+      dockerfile: Dockerfile-WebApi
+    ports:
+      - "62117:80"
