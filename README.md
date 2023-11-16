@@ -2,6 +2,8 @@
 Simulador de investimentos feito em .NET Framework 4.8 (WebAPI) e Angular 17 (Frontend).
 
 ## Funcionalidade
+![](screen.gif)
+
 * O sistema permite que o usuário infome um valor e um prazo em meses para o resgate da aplicação. Após inserir os dados, o usuário pode solicitar o cálculo do investimento. A tela apresentará o resultado bruto e o resultado líquido do investimento.
 
 ## Estrutura da aplicação
@@ -45,7 +47,7 @@ Backend:
 *  Abrir a solution `InvestimentSimulator.sln`, no visual studio.
 *  Compilar projeto de teste (InvestimentSimulator.WebAPI.Tests) individualmente, para que não ocorra erros.
 *  Compilar projeto de WebApi (InvestimentSimulator.WebAPI) individualmente.
-*  Executar projeto no botão de "Play" do VS.
+*  Executar projeto no botão de "Play" do VS. Caso haja erro de compilaçao devido conflitos de versão, limpe os projetos WebApi e Test, e execute-os novamente. 
 
 Frontend:
 
