@@ -45,8 +45,8 @@ Backend:
 * Baixar e instalar [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/).
     *  Caso seja necessário, seguir o tutorial de instalação do [.NET Framework](https://learn.microsoft.com/pt-br/dotnet/framework/).
 *  Abrir a solution `InvestimentSimulator.sln`, no visual studio.
-*  Compilar projeto de teste (InvestimentSimulator.WebAPI.Tests) individualmente, para que não ocorra erros.
 *  Compilar projeto de WebApi (InvestimentSimulator.WebAPI) individualmente.
+*  Compilar projeto de teste (InvestimentSimulator.WebAPI.Tests) individualmente, para que não ocorra erros.
 *  Executar projeto no botão de "Play" do VS. Caso haja erro de compilação devido conflitos de versão, limpe os projetos WebApi e Test, e execute-os novamente. 
 
 Frontend:
