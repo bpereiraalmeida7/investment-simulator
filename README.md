@@ -42,18 +42,18 @@ O projeto frontend também utilizando uma arquitetura em camada, dando foco a es
 
 Backend:
 
-* Baixar e instalar [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/).
-    *  Caso seja necessário, seguir o tutorial de instalação do [.NET Framework](https://learn.microsoft.com/pt-br/dotnet/framework/).
+* Baixar e instalar [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/), certificando em marcar, na instalação, a opção "Ferramentas de desenvolvimento do .NET Framework 4.8" no item "ASP NET e desenvolvimento web".
+    *  Caso seja necessário, seguir o tutorial de instalação a parte, do [.NET Framework](https://learn.microsoft.com/pt-br/dotnet/framework/).
 *  Abrir a solution `InvestimentSimulator.sln`, no visual studio.
 *  Compilar projeto de WebApi (InvestimentSimulator.WebAPI) individualmente.
 *  Compilar projeto de teste (InvestimentSimulator.WebAPI.Tests) individualmente, para que não ocorra erros.
-*  Executar projeto no botão de "Play" do VS. Caso haja erro de compilação devido conflitos de versão, limpe os projetos WebApi e Test, e execute-os novamente. 
+*  Executar projeto no botão de "Play" do VS. Caso haja erro de compilação devido conflitos de versão, limpe e compile individualmente os projetos WebApi e Test, e execute-os novamente. 
 
 Frontend:
 
 *  Instalar [Node v18](https://nodejs.org/en/download)
 *  Instalar [NPM](https://angular.io/guide/setup-local#prerequisites)
-*  Abrir um terminal dentro da pasta "InvestimentSimulatorClient", e rodar o comando `npm install` para instalar as dependências.
+*  Abrir um terminal dentro da pasta "InvestimentSimulatorClient", e rodar o comando `npm install --force` para instalar as dependências.
 *  Ainda no terminal dentro da pasta do client, será necessário executar o comando `npm start`, para inicializar o frontend.
 *  Acessar no navegador `http://localhost:4200/`
 
