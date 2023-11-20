@@ -21,7 +21,7 @@ O backend do sistema foi feito em .NET Framework (WebAPI) e o frontend em Angula
   |   | - 📁 Interfaces
 ```
 O projeto backend foi estruturado em camadas, a princípio através de pastas, por se tratar de um projeto pequeno. Com esta arquitetura diminui a complexidade e aumenta a performance do carregamento do mesmo, ao mesmo tempo que mantem uma divisão clara das responsabilidades. Obs: Conforme o projeto for crescendo, é interessante fazer essa separação por projetos diferentes (Class Library), interligando-os por meio de referências 
-**(Para mais detalhes deixo disponível meu repositório, como exemplo de arquitetura limpa: https://github.com/bpereiraalmeida7/dotnet-clean-arch)**
+**(Para mais detalhes deixo disponível meu repositório, como exemplo de arquitetura limpa: https://github.com/bpereiraalmeida7/dotnet-clean-arch)**.
 
 ###### Client
 ```
